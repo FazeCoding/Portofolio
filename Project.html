@@ -1,14 +1,536 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Faiz Abdullah | Portofolio & CV Bisnis Digital</title>
+    <meta name="description"
+        content="Website portofolio dan CV profesional Faiz Abdullah, mahasiswa Sarjana Bisnis Digital. Menampilkan keahlian dalam E-Commerce, Pemasaran Digital, Analisis Data, dan Strategi Bisnis.">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <!-- Background Ambient Glows -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
 
+    <!-- Navigation Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">FAIZ.<span>DIGITAL</span></a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#portfolio" class="nav-link">Portofolio</a>
+                <a href="#cv" class="nav-link">CV / Riwayat</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Light/Dark icon will be injected by JS -->
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Open Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-subtitle">Aspiring Data Analyst / Scientist</div>
+                <h1 class="hero-title">Halo, Saya <span>Faiz Abdullah</span></h1>
+                <p class="hero-description">
+                    Mahasiswa Bisnis Digital di Institut Teknologi Kalimantan yang berdedikasi tinggi dan memiliki
+                    ketertarikan mendalam dalam dunia pengolahan data, statistik, dan pemrograman. Berkomitmen untuk
+                    menjadi profesional di bidang Data Analytics & Data Science yang mampu menghasilkan wawasan bisnis
+                    berbasis data (data-driven).
+                </p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn btn-primary">Rencana Project</a>
+                    <a href="#cv" class="btn btn-secondary">Lihat CV Saya</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-blob">
+                    <div class="hero-avatar-placeholder">FA</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <p>Mengenal lebih dekat visi, latar belakang belajar, dan ambisi karir saya di bidang data</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="glass-panel stat-card"
+                    style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+                    <h3 style="margin-bottom: 1rem; color: var(--accent-primary); font-size: 1.5rem;">Visi & Misi</h3>
+                    <p style="color: var(--text-secondary); text-align: left; font-size: 1rem; line-height: 1.7;">
+                        Menjembatani dunia bisnis dan teknologi melalui analisis data yang presisi, membantu pengambilan
+                        keputusan berbasis data (data-driven) guna memecahkan masalah bisnis secara logis dan terukur.
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <p>
+                        Saat ini, saya sedang menempuh pendidikan Sarjana Bisnis Digital di Institut Teknologi
+                        Kalimantan. Melalui program studi ini, saya menyadari pentingnya data untuk kelangsungan
+                        bisnis di era modern. Hal ini mendorong saya untuk fokus mempelajari keterampilan analisis data
+                        dan sains data.
+                    </p>
+                    <p>
+                        Meskipun belum memiliki proyek komersial formal, saya secara aktif mempelajari dasar-dasar
+                        statistika, bahasa pemrograman Python, kueri SQL, dan visualisasi data. Saya sangat bersemangat
+                        untuk terus belajar, melakukan eksperimen data, dan mencari kesempatan magang untuk menerapkan
+                        teori yang saya pelajari.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="glass-panel stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Fokus Pembelajaran</div>
+                        </div>
+                        <div class="glass-panel stat-card">
+                            <div class="stat-number">3.85</div>
+                            <div class="stat-label">IPK / GPA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-header">
+                <h2>Fokus & Keahlian Belajar</h2>
+                <p>Keterampilan teknis dan konseptual yang sedang aktif saya pelajari dan kembangkan</p>
+            </div>
+
+            <div class="skills-container">
+                <!-- Analisis & Statistik -->
+                <div class="glass-panel skills-category">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                        Analisis & Statistik
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Statistika & Probabilitas Dasar</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pengolahan Data (Excel/Spreadsheet)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Analisis Bisnis Digital</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pemrograman & Alat Data -->
+                <div class="glass-panel skills-category">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        Bahasa & Alat Data
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bahasa Python (Pandas, NumPy)</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Kueri SQL Dasar</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Visualisasi Data (Tableau / Looker Studio)</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Konsep Bisnis & Metodologi -->
+                <div class="glass-panel skills-category">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z">
+                            </path>
+                            <path d="M12 8V16"></path>
+                            <path d="M8 12H16"></path>
+                        </svg>
+                        Konseptual & Bisnis
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Riset Pasar Digital</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pemecahan Masalah (Problem Solving)</span>
+                                <span>84%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="84"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Manajemen Proyek Dasar</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="section-header">
+                <h2>Rencana Proyek & Studi Belajar</h2>
+                <p>Eksperimen data dan studi kasus yang sedang saya rancang dalam peta belajar Data Analytics</p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua Rencana</button>
+                <button class="filter-btn" data-filter="python">Python & SQL</button>
+                <button class="filter-btn" data-filter="viz">Visualisasi Data</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="glass-panel portfolio-card" data-category="python">
+                    <div class="portfolio-img-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tag">Python (Rencana Proyek)</div>
+                        <h3 class="portfolio-title">Analisis Tren Penjualan Retail</h3>
+                        <p class="portfolio-desc">Rencana pembersihan data transaksi dan eksplorasi data penjualan
+                            menggunakan library Pandas untuk menemukan produk berkinerja tinggi.</p>
+                        <a href="#" class="portfolio-link">
+                            Detail Pembelajaran
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-panel portfolio-card" data-category="python">
+                    <div class="portfolio-img-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tag">SQL (Rencana Proyek)</div>
+                        <h3 class="portfolio-title">Kueri Database Pelanggan</h3>
+                        <p class="portfolio-desc">Perancangan skema database relasional sederhana dan penulisan kueri
+                            SQL untuk menganalisis perilaku belanja serta retensi pelanggan.</p>
+                        <a href="#" class="portfolio-link">
+                            Detail Pembelajaran
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-panel portfolio-card" data-category="viz">
+                    <div class="portfolio-img-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                            <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tag">Visualization (Rencana Proyek)</div>
+                        <h3 class="portfolio-title">Dasbor KPI Bisnis Digital</h3>
+                        <p class="portfolio-desc">Rencana visualisasi data penjualan interaktif menggunakan Tableau
+                            untuk memudahkan manajemen dalam memantau kinerja toko online.</p>
+                        <a href="#" class="portfolio-link">
+                            Detail Pembelajaran
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV / Timeline Section -->
+        <section id="cv">
+            <div class="section-header">
+                <h2>Riwayat Hidup & CV</h2>
+                <p>Perjalanan akademis, organisasi, dan profesional yang membentuk kompetensi saya saat ini</p>
+            </div>
+
+            <div class="timeline">
+                <!-- Pendidikan -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-panel timeline-card">
+                        <span class="timeline-date">2025 - Sekarang</span>
+                        <h3 class="timeline-title">Sarjana Bisnis Digital</h3>
+                        <div class="timeline-subtitle">Institut Teknologi Kalimantan - IPK: 3.85 / 4.00</div>
+                        <p class="timeline-desc">Mempelajari Manajemen E-Commerce, Analisis Big Data, Digital Marketing,
+                            Pengantar Coding & Basis Data, serta Perancangan Model Bisnis Start-Up.</p>
+                    </div>
+                </div>
+
+                <!-- Pengalaman Magang -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-panel timeline-card">
+                        <span class="timeline-date">Juni 2025 - Agustus 2025</span>
+                        <h3 class="timeline-title">Digital Marketing & Operations Intern</h3>
+                        <div class="timeline-subtitle">TechStart E-Commerce Hub</div>
+                        <p class="timeline-desc">Membantu optimasi SEO blog, merancang kampanye iklan digital berbayar,
+                            dan memantau metrik performa konversi harian toko online.</p>
+                    </div>
+                </div>
+
+                <!-- Organisasi -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-panel timeline-card">
+                        <span class="timeline-date">2024 - Sekarang</span>
+                        <h3 class="timeline-title">Staff Magang Departemen BUMH</h3>
+                        <div class="timeline-subtitle">Himpunan Mahasiswa Bisnis Digital</div>
+                        <p class="timeline-desc">Menjalankan tugas administrasi dan membantu kelancaran program kerja
+                            HMBD ITK.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <!-- Resume Download Mock Button -->
+                <button class="btn btn-primary"
+                    onclick="alert('File CV Anda siap diunduh! (Ini adalah contoh tombol download CV)')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Unduh CV Lengkap (PDF)
+                </button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header">
+                <h2>Hubungi Saya</h2>
+                <p>Silakan kirimkan pesan atau ajakan kolaborasi, saya akan merespon secepat mungkin</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>faiz.abdullah@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/faiz-abdullah</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Lokasi</h4>
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="glass-panel contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-control" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan Anda</label>
+                        <textarea id="message" class="form-control"
+                            placeholder="Tuliskan pesan atau ajakan kolaborasi Anda..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Pesan Anda berhasil terkirim! Terima kasih.</span>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">FAIZ.<span>DIGITAL</span></div>
+            <div class="footer-socials">
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Faiz Abdullah. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
